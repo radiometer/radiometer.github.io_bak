@@ -141,8 +141,33 @@ body {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+.main-area .product-container .tab-content img {
+  max-width: 100%;
+  max-height: 300px;
+}
 .main-area .project img {
   max-width: 100%;
+}
+.main-area .project .project-title {
+  text-align: center;
+  font-weight: 800;
+}
+.main-area .project .project-item1,
+.main-area .project .project-item4 {
+  background-color: #efe;
+}
+.main-area .project .project-item2,
+.main-area .project .project-item3 {
+  background-color: #d0f1d0;
+}
+.main-area .project .project-item1,
+.main-area .project .project-item2,
+.main-area .project .project-item3,
+.main-area .project .project-item4 {
+  padding: 15px;
+}
+.main-area .modal-dialog img {
+  max-width: 480px;
 }
 .main-area .partner {
   text-align: center;
