@@ -59,6 +59,13 @@ body {
   font-size: 24px;
   color: #ffa801;
 }
+.navbar-brand {
+  line-height: 56px;
+}
+.navbar-brand img {
+  width: 56px;
+  height: 56px;
+}
 .navbar {
   padding: 0 1rem;
   background-color: #3462A8 !important;
@@ -147,24 +154,31 @@ body {
 }
 .main-area .project img {
   max-width: 100%;
+  height: 380px;
 }
 .main-area .project .project-title {
   text-align: center;
   font-weight: 800;
 }
 .main-area .project .project-item1,
-.main-area .project .project-item4 {
-  background-color: #efe;
-}
-.main-area .project .project-item2,
 .main-area .project .project-item3 {
-  background-color: #d0f1d0;
+  border-right: #9e9e9e 1px solid;
+}
+.main-area .project .project-item3,
+.main-area .project .project-item4 {
+  border-top: #9e9e9e 1px solid;
 }
 .main-area .project .project-item1,
 .main-area .project .project-item2,
 .main-area .project .project-item3,
 .main-area .project .project-item4 {
   padding: 15px;
+}
+.main-area .project .project-item1 .project-title,
+.main-area .project .project-item2 .project-title,
+.main-area .project .project-item3 .project-title,
+.main-area .project .project-item4 .project-title {
+  margin-bottom: 5px;
 }
 .main-area .modal-dialog img {
   max-width: 480px;
